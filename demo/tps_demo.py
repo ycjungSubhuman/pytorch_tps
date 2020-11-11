@@ -6,7 +6,7 @@ import os, sys
 sys.path.append(
     os.path.dirname(
         os.path.dirname(os.path.realpath(__file__))))
-import tps
+import pytorch_tps.tps
 
 
 pts_before = [
